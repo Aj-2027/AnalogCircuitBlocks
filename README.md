@@ -12,7 +12,8 @@
 ---
 
 ## 1. One-Stage Op-Amp
-Single differential pair with active load (PMOS/NMOS current mirror). Bias current is supplied via a tail current source, typically implemented using a current mirror. This configuration is faster than a two-stage op-amp due to fewer internal nodes. All transistors are biased in saturation.  
+Single differential pair with active load (PMOS/NMOS current mirror). Bias current is supplied via a tail current source, typically implemented using a current mirror. This configuration is faster than a two-stage op-amp due to fewer internal nodes. All transistors are biased in saturation.
+  
 ---
 
 ## 2. Two-Stage Op-Amp
@@ -44,12 +45,20 @@ Generates a temperature-independent reference voltage (~1.2 V) by combining PTAT
 
 ## Conclusion
 -Studied different op-amp topologies and their trade-offs in gain, swing, and power.
+
 -Simulated all designs using DC, AC, transient, noise, and Monte Carlo analysis.
+
 -Telescopic gives high speed; folded cascode offers better swing.
+
 -Designed a BGR circuit with a stable, temperature-independent output.
+
 -Gained practical understanding of analog circuit behavior using Cadence.
 
 ## References
 -Design of Analog CMOS Integrated Circuits - Behzad Razavi
+
 -Fundamentals of Microelectonics - Behzad Razavi
--A Sub-5 ppm/°C Bandgap Voltage Reference with Dual Source-Sink Current Compensation By Hanru Yang, Tianrui Lyu, Xiao Huang, Jianping Guo (Sun Yat-sen University, Guangzhou, China)
+
+-A Sub-5 ppm/°C Bandgap Voltage Reference with Dual Source-Sink Current Compensation By Hanru Yang, Tianrui Lyu, Xiao Huang, 
+Jianping Guo (Sun Yat-sen University, Guangzhou, China)
+
